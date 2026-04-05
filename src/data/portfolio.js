@@ -25,7 +25,7 @@ export const projects = [
     description:
       'Aplikasi untuk melihat waktu shalat secara real time yang interaktif.',
     image: null,
-    tech: ['React', 'Framer Motion', 'Tailwind', 'WaktuShalat-API'],
+    tech: ['React', 'Tailwind', 'WaktuShalat-API'],
     github: 'https://github.com/WiellenSurhoof/IPTA-Islamic-Prayer-time-Application-.git',
     demo: 'https://clinquant-baklava-8634c4.netlify.app/',
     featured: true,
