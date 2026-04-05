@@ -65,7 +65,7 @@ export default function Contact() {
                   value={form.name}
                   onChange={(e) => setForm({ ...form, name: e.target.value })}
                   required
-                  placeholder="John Doe"
+                  placeholder="Wildan Adrian"
                   className="w-full px-4 py-3 bg-[#0d1520] border border-[#24374e]/60 rounded-xl text-gray-200 placeholder-gray-600 focus:outline-none focus:border-[#49605f] focus:ring-1 focus:ring-[#49605f]/30 transition-all duration-300"
                 />
               </div>
@@ -122,11 +122,11 @@ export default function Contact() {
               <div className="space-y-3">
                 <p className="flex items-center gap-3 text-sm text-gray-400">
                   <span className="w-8 h-8 rounded-lg bg-[#24374e]/50 flex items-center justify-center text-[#7ecac8]">@</span>
-                  hello@johndoe.dev
+                 wildanhakim164@gmail.com
                 </p>
                 <p className="flex items-center gap-3 text-sm text-gray-400">
                   <span className="w-8 h-8 rounded-lg bg-[#24374e]/50 flex items-center justify-center text-[#7ecac8]">📍</span>
-                  Jakarta, Indonesia
+                  Bogor, Indonesia
                 </p>
               </div>
             </div>

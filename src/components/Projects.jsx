@@ -48,7 +48,7 @@ export default function Projects() {
           className="text-center mt-12"
         >
           <a
-            href="#"
+            href="https://github.com/WiellenSurhoof"
             className="inline-flex items-center gap-2 text-[#7ecac8] hover:text-white text-sm font-medium transition-colors duration-300 group"
           >
             View all projects on GitHub

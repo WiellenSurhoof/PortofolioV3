@@ -47,10 +47,10 @@ export const projects = [
 ]
 
 export const socials = [
-  { name: 'GitHub', url: '#', icon: 'github' },
+  { name: 'GitHub', url: 'https://github.com/WiellenSurhoof', icon: 'github' },
   { name: 'LinkedIn', url: '#', icon: 'linkedin' },
   { name: 'Twitter', url: '#', icon: 'twitter' },
-  { name: 'Email', url: 'mailto:hello@johndoe.dev', icon: 'email' },
+  { name: 'Email', url: 'mailto:wildanhakim164@gmail.com', icon: 'email' },
 ]
 
 export const navLinks = ['Home', 'About', 'Projects', 'Contact']

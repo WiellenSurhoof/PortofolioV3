@@ -7,15 +7,15 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
         <div className="flex items-center gap-2">
           <div className="w-7 h-7 rounded-lg bg-gradient-to-br from-[#7ecac8] to-[#49605f] flex items-center justify-center text-xs font-bold text-[#060b14]">
-            J
+            W
           </div>
           <span className="font-bold text-gray-400">
-            John<span className="text-[#49605f]">.</span>
+            Wildan's Portofolio<span className="text-[#49605f]">.</span>
           </span>
         </div>
 
         <p className="text-sm text-gray-600">
-          © {new Date().getFullYear()} John Doe. Built with React & Tailwind.
+          © {new Date().getFullYear()} Wildan Hakim. Built with React & Tailwind.
         </p>
 
         <div className="flex items-center gap-4">
