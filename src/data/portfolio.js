@@ -1,12 +1,11 @@
 export const skills = [
-  { name: 'React.js', icon: '⚛️', level: 85 },
-  { name: 'JavaScript', icon: '🟨', level: 85 },
-  { name: 'Tailwind CSS', icon: '🎨', level: 80 },
-  { name: 'MongoDB', icon: '🍃', level: 50 },
-  { name: 'Laravel', icon: '🔗', level: 80 },
-  { name: 'PHP', icon: '🐙', level: 85 },
-]
-
+  { name: 'React.js', icon: 'react', level: 85 },
+  { name: 'JavaScript', icon: 'js', level: 85 },
+  { name: 'Tailwind CSS', icon: 'tailwind', level: 80 },
+  { name: 'MongoDB', icon: 'mongo', level: 50 },
+  { name: 'Laravel', icon: 'laravel', level: 80 },
+  { name: 'PHP', icon: 'php', level: 85 },
+];
 export const projects = [
   {
     id: 1,

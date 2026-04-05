@@ -1,15 +1,31 @@
 import { motion } from 'framer-motion'
 import { skills } from '../data/portfolio'
+import { IoLogoJavascript } from "react-icons/io";
+import { FaReact } from "react-icons/fa";
+import { FaPhp } from "react-icons/fa";
+import { FaLaravel } from "react-icons/fa6";
+import { SiMongodb } from "react-icons/si";
+import { RiTailwindCssFill } from "react-icons/ri";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
   show: { opacity: 1, y: 0, transition: { duration: 0.6, ease: 'easeOut' } },
 }
 
+const iconMap = {
+  react: <FaReact />,
+  js: <IoLogoJavascript />,
+  tailwind: <RiTailwindCssFill />,
+  mongo: <SiMongodb />,
+  laravel: <FaLaravel />,
+  php: <FaPhp />,
+};
+
 export default function About() {
   return (
     <section id="about" className="relative py-32 px-6 overflow-hidden">
       {/* Bg accent */}
+      
       <div className="absolute top-0 right-0 w-96 h-96 bg-[#24374e]/15 rounded-full blur-[120px] pointer-events-none" />
 
       <div className="max-w-6xl mx-auto">
@@ -82,7 +98,7 @@ export default function About() {
                   transition={{ delay: i * 0.07, duration: 0.4 }}
                   className="group flex items-center gap-3 p-4 rounded-xl bg-[#0d1520] border border-[#24374e]/50 hover:border-[#49605f]/60 hover:bg-[#24374e]/20 transition-all duration-300"
                 >
-                  <span className="text-xl">{skill.icon}</span>
+                  <span className="text-xl">{iconMap[skill.icon]}</span>
                   <div className="flex-1 min-w-0">
                     <div className="text-sm font-medium text-gray-200 mb-1.5">{skill.name}</div>
                     <div className="h-1 bg-[#24374e] rounded-full overflow-hidden">
