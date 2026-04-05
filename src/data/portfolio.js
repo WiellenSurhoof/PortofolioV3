@@ -16,7 +16,7 @@ export const projects = [
     tech: ['Laravel', 'Bootstrap', 'MySQL' ],
     github: 'https://github.com/WiellenSurhoof/TIXID',
     demo: '#',
-    featured: true,
+    featured: false,
     color: 'from-[#7ecac8]/20 to-[#49605f]/10',
   },
   {
