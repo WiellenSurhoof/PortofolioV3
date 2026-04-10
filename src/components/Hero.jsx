@@ -58,7 +58,7 @@ export default function Hero() {
         <motion.div variants={item} className="flex flex-wrap gap-4 justify-center">
           <a
             href="#projects"
-            className="group relative px-8 py-3.5 bg-gradient-to-r from-[#49605f] to-[#24374e] rounded-xl font-semibold overflow-hidden hover:shadow-xl hover:shadow-[#49605f]/30 transition-all duration-300"
+            className="group relative px-8 py-3.5 bg-[#24374e] rounded-xl font-semibold overflow-hidden hover:shadow-xl hover:shadow-[#49605f]/30 transition-all duration-300"
           >
             <span className="relative z-10 flex items-center gap-2">
               View Projects

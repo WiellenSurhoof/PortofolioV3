@@ -32,9 +32,11 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo */}
         <a href="#home" className="group flex items-center gap-2">
-          <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#7ecac8] to-[#49605f] flex items-center justify-center text-sm font-bold text-[#060b14]">
-            W
-          </div>
+          <img
+              src="src/assets/logocyan.png"
+              alt="Logo"
+              style={{ height: '40px', width: 'auto' }}
+            />
           <span className="font-bold text-lg tracking-tight group-hover:text-[#7ecac8] transition-colors duration-300">
             Wildan's Portofolio<span className="text-[#49605f]">.</span>
           </span>
@@ -49,7 +51,7 @@ export default function Navbar() {
                 onClick={() => handleNav(item)}
                 className={`relative px-4 py-2 text-sm font-medium rounded-lg transition-all duration-300 ${
                   active === item
-                    ? 'text-[#7ecac8]'
+                    ? 'text-[#7eca2c8]'
                     : 'text-gray-400 hover:text-gray-100'
                 }`}
               >
@@ -68,7 +70,7 @@ export default function Navbar() {
         {/* CTA */}
         <a
           href="#contact"
-          className="hidden md:flex items-center gap-2 px-5 py-2 text-sm font-semibold bg-gradient-to-r from-[#49605f] to-[#24374e] rounded-lg border border-[#49605f]/40 hover:border-[#7ecac8]/50 hover:shadow-lg hover:shadow-[#49605f]/20 transition-all duration-300"
+          className="hidden md:flex items-center gap-2 px-5 py-2 text-sm font-semibold bg-[#24374e] rounded-lg border border-[#49605f]/40 hover:border-[#7ecac8]/50 hover:shadow-lg hover:shadow-[#49605f]/20 transition-all duration-300"
         >
           Contact Me!
         </a>

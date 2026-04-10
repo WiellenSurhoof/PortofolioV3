@@ -12,36 +12,30 @@ export const projects = [
     title: 'Cinema Web',
     description:
       'Platform memesan tiket bioskop sederhana dengan fitur CRUD dan Payment',
-    image: null,
+    image: 'sc/assets/',
     tech: ['Laravel', 'Bootstrap', 'MySQL' ],
     github: 'https://github.com/WiellenSurhoof/TIXID',
     demo: '#',
-    featured: false,
-    color: 'from-[#7ecac8]/20 to-[#49605f]/10',
   },
   {
     id: 2,
     title: 'Islamic Prayer Time Application',
     description:
       'Aplikasi untuk melihat waktu shalat secara real time yang interaktif.',
-    image: null,
+    image: 'sc/assets/',
     tech: ['React', 'Tailwind', 'WaktuShalat-API'],
     github: 'https://github.com/WiellenSurhoof/IPTA-Islamic-Prayer-time-Application-.git',
     demo: 'https://clinquant-baklava-8634c4.netlify.app/',
-    featured: true,
-    color: 'from-[#24374e]/30 to-[#49605f]/10',
   },
   {
     id: 3,
     title: 'Royale Maisone',
     description:
       'Aplikasi pemesanan kamar hotel sederhana dengan CRUD.',
-    image: null,
+    image: 'sc/assets/',
     tech: ['Laravel', 'Bootstrap', 'MySQL'],
     github: 'https://github.com/WiellenSurhoof/hotel-project',
     demo: 'capable-bienenstitch-1a3d0b.netlify.app',
-    featured: false,
-    color: 'from-[#49605f]/20 to-[#24374e]/10',
   },
 ]
 

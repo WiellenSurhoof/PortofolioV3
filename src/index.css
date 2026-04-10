@@ -24,7 +24,7 @@
 
 @layer utilities {
   .text-gradient {
-    background: linear-gradient(135deg, #7ecac8 0%, #49605f 50%, #24374e 100%);
+    background: linear-gradient(135deg, #7ecac8 0%, #75a3a1 50%, #24374e 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;

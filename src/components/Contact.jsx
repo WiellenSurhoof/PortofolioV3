@@ -21,7 +21,7 @@ export default function Contact() {
     <section id="contact" className="relative py-32 px-6 overflow-hidden">
       <div className="absolute top-1/2 right-0 w-96 h-96 bg-[#24374e]/15 rounded-full blur-[120px] pointer-events-none" />
 
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

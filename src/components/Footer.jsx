@@ -6,9 +6,11 @@ export default function Footer() {
     <footer className="border-t border-[#24374e]/30 py-10 px-6">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
         <div className="flex items-center gap-2">
-          <div className="w-7 h-7 rounded-lg bg-gradient-to-br from-[#7ecac8] to-[#49605f] flex items-center justify-center text-xs font-bold text-[#060b14]">
-            W
-          </div>
+          <img
+              src="src/assets/logocyan.png"
+              alt="Logo"
+              style={{ height: '40px', width: 'auto' }}
+            />
           <span className="font-bold text-gray-400">
             Wildan's Portofolio<span className="text-[#49605f]">.</span>
           </span>

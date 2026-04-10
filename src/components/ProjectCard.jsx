@@ -14,24 +14,7 @@ export default function ProjectCard({ project, index }) {
 
       {/* Card image placeholder */}
       <div className={`relative h-44 bg-gradient-to-br ${project.color} flex items-center justify-center overflow-hidden`}>
-        <div className="absolute inset-0 opacity-20"
-          style={{
-            backgroundImage: 'linear-gradient(rgba(126,202,200,0.3) 1px, transparent 1px), linear-gradient(90deg, rgba(126,202,200,0.3) 1px, transparent 1px)',
-            backgroundSize: '30px 30px',
-          }}
-        />
-        <div className="relative z-10 w-16 h-16 rounded-2xl bg-[#060b14]/60 backdrop-blur-sm border border-[#49605f]/30 flex items-center justify-center">
-          <svg className="w-8 h-8 text-[#7ecac8]" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
-            <path d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5" />
-          </svg>
-        </div>
-
-        {/* Featured badge */}
-        {project.featured && (
-          <div className="absolute top-3 right-3 px-2.5 py-1 rounded-full bg-[#49605f]/80 backdrop-blur-sm text-xs font-medium text-[#7ecac8] border border-[#7ecac8]/20">
-            Featured
-          </div>
-        )}
+        <img src={project.image}></img>
       </div>
 
       {/* Content */}
