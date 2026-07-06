@@ -38,11 +38,11 @@ export default function Hero() {
 
         {/* Role */}
         <motion.div variants={item} className="flex items-center justify-center gap-3 mb-6">
-          <div className="h-px w-12 bg-gradient-to-r from-transparent to-[#49605f]" />
-          <p className="text-xl md:text-2xl text-[#7ecac8] font-light tracking-widest uppercase text-sm">
+          <div className="h-px w-12 bg-linear-to-r from-transparent to-[#49605f]" />
+          <p className="text-xl md:text-2xl text-[#7ecac8] font-light tracking-widest uppercase text-xl">
             A Versatile Scholar
           </p>
-          <div className="h-px w-12 bg-gradient-to-l from-transparent to-[#49605f]" />
+          <div className="h-px w-12 bg-linear-to-l from-transparent to-[#49605f]" />
         </motion.div>
 
         {/* Description */}

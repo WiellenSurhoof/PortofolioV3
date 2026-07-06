@@ -28,7 +28,7 @@ export default function Contact() {
           viewport={{ once: true }}
           className="flex items-center gap-4 mb-4"
         >
-          <span className="text-[#7ecac8] text-sm font-mono tracking-widest uppercase">03. Contact</span>
+          <span className="text-[#7ecac8] text-sm font-mono tracking-widest uppercase">04. Contact</span>
           <div className="flex-1 h-px bg-gradient-to-r from-[#49605f]/40 to-transparent" />
         </motion.div>
 
@@ -122,7 +122,7 @@ export default function Contact() {
               <div className="space-y-3">
                 <p className="flex items-center gap-3 text-sm text-gray-400">
                   <span className="w-8 h-8 rounded-lg bg-[#24374e]/50 flex items-center justify-center text-[#7ecac8]">@</span>
-                 wildanhakim164@gmail.com
+                wildanhakim164@gmail.com
                 </p>
                 <p className="flex items-center gap-3 text-sm text-gray-400">
                   <span className="w-8 h-8 rounded-lg bg-[#24374e]/50 flex items-center justify-center text-[#7ecac8]">📍</span>

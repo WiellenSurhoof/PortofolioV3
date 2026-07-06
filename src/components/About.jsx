@@ -4,7 +4,7 @@ import { IoLogoJavascript } from "react-icons/io";
 import { FaReact } from "react-icons/fa";
 import { FaPhp } from "react-icons/fa";
 import { FaLaravel } from "react-icons/fa6";
-import { SiMongodb } from "react-icons/si";
+import { SiFlutter } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 
 const fadeUp = {
@@ -16,7 +16,7 @@ const iconMap = {
   react: <FaReact />,
   js: <IoLogoJavascript />,
   tailwind: <RiTailwindCssFill />,
-  mongo: <SiMongodb />,
+  mongo: <SiFlutter />,
   laravel: <FaLaravel />,
   php: <FaPhp />,
 };
@@ -55,13 +55,10 @@ export default function About() {
             </h2>
             <div className="space-y-4 text-gray-400 leading-relaxed">
               <p>
-                Saya adalah seorang Full Stack Developer dengan 1+ tahun pengalaman membangun
-                aplikasi web modern. Saya percaya bahwa kode yang baik bukan hanya yang bekerja,
-                tapi yang mudah dibaca dan dipelihara.
+                I'm a Full Stack developer who have 1+ years experience to created modern website and application. I believe a great code not just working, but a great code can easily to understand and maintain.
               </p>
               <p>
-                saya suka eksplorasi teknologi baru, berkontribusi ke
-                open source, dan berbagai pengetahuan baru.
+                I've like to explore new tech, contribute to open source, and share new knowledge.
               </p>
             </div>
 
