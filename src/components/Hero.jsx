@@ -68,7 +68,8 @@ export default function Hero() {
             </span>
           </a>
           <a
-            href="#"
+            href="/cv.png"
+            download="cv-muhamad-wildan-adriansyah-lukman-hakim.png"
             className="px-8 py-3.5 rounded-xl font-semibold border border-[#49605f]/40 text-gray-300 hover:border-[#7ecac8]/60 hover:text-[#7ecac8] hover:bg-[#49605f]/10 transition-all duration-300"
           >
             Download CV
