@@ -9,12 +9,23 @@ export default function ProjectCard({ project, index }) {
       transition={{ delay: index * 0.15, duration: 0.6, ease: 'easeOut' }}
       className="group relative rounded-2xl overflow-hidden bg-[#0d1520] border border-[#24374e]/50 project-card-glow"
     >
-      {/* Top gradient bar */}
-      <div className={`h-1 w-full bg-gradient-to-r ${project.color}`} />
-
-      {/* Card image placeholder */}
-      <div className={`relative h-44 bg-gradient-to-br ${project.color} flex items-center justify-center overflow-hidden`}>
-        <img src={project.image}></img>
+      {/* Card image */}
+      <div className="relative h-44 overflow-hidden bg-[#060b14]">
+        {project.image ? (
+          <img
+            src={project.image}
+            alt={project.title}
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+          />
+        ) : (
+          <div className={`w-full h-full bg-gradient-to-br ${project.color} flex items-center justify-center`}>
+            <svg className="w-10 h-10 text-[#7ecac8]/40" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+              <path d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5" />
+            </svg>
+          </div>
+        )}
+        {/* bottom fade */}
+        <div className="absolute bottom-0 left-0 right-0 h-10 bg-gradient-to-t from-[#0d1520] to-transparent" />
       </div>
 
       {/* Content */}

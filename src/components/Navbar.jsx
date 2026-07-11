@@ -33,10 +33,10 @@ export default function Navbar() {
         {/* Logo */}
         <a href="#home" className="group flex items-center gap-2">
           <img
-              src="src/assets/logocyan.png"
-              alt="Logo"
-              style={{ height: '40px', width: 'auto' }}
-            />
+            src="/logoblack.svg"
+            alt="Logo"
+            className="h-10 w-auto"
+          />
           <span className="font-bold text-lg tracking-tight group-hover:text-[#7ecac8] transition-colors duration-300">
             Wildan's Portofolio<span className="text-[#49605f]">.</span>
           </span>
